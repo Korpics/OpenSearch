@@ -41,7 +41,7 @@ public enum Architecture {
         final String architecture = System.getProperty("os.arch", "");
         switch (architecture) {
             case "amd64":
-            case "x86_64":
+            case "s390x":
                 return X64;
             case "aarch64":
                 return ARM64;
